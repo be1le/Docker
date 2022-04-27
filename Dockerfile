@@ -1,5 +1,5 @@
 FROM python:3.8
-#python:3.8이 실행 될수있는 환경이 세팅되어있는 이미지를
+#python:3.8이 실행 될수있는 환경이 세팅 되어있는 이미지를
 #사용해서 도커 image를 만들겠다.
 
 ADD requirements.txt .
