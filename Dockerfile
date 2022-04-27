@@ -6,7 +6,7 @@ ADD requirements.txt .
 #호스트 머신에 있는 파일을 docker image에 넣겠다.
 
 RUN pip install -r requirements.txt
-#docker 내부의 shell에서 위의 커맨드를 사용하여 환경을 만들겠다.
+#docker 내부의 shell 에서 위의 커맨드를 사용하여 환경을 만들겠다.
 
 ADD templates ./templates/
 
