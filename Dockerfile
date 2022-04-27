@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 
 ADD templates ./templates/
 
-ADD app.py .#현재경로
+ADD app.py .#현재 경로
 
 CMD ["python", "app.py"]
 #어떠한 명령어가 기본으로 실행 될 것인지 정의하는 CMD 문법
