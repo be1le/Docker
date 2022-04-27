@@ -13,4 +13,4 @@ ADD templates ./templates/
 ADD app.py .
 
 CMD ["python", "app.py"]
-#어떠한 명령어가 기본으로 실행 될 것인지 정의하는 CMD문법
+#어떠한 명령어가 기본으로 실행 될 것인지 정의하는 CMD 문법
